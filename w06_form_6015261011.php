@@ -11,9 +11,9 @@
 <form action="project_data.php" method="get">
     <fieldset id="sect1">
         <legend>ส่วนที่ 1 ข้อมูลผู้จัดทำโครงงาน</legend>
-        <label for="std">รหัสนักศึกษา</label><input type="text" name="sid">
-        <label for="fname">ชื่อ</label><input type="text" name="sid">
-        <label for="laname">นามสกุล</label><input type="text" name="sid">
+        <label>รหัสนักศึกษา</label><input type="text" name="sid">
+        <label>ชื่อ</label><input type="text" name="fname">
+        <label>นามสกุล</label><input type="text" name="lname">
         <br><br>
         <label for="program">สาขาวิชา</label>
         <select name="program">
@@ -69,7 +69,7 @@
                     <option value="1">ผศ.บุญเรือน พฤกษ์ศศิธร</option>
                     <option value="2">ผศ.ทิพย์วรรณ์ ฟูเฟื่อง</option>
         </select>
-                    <p><button type="submit" id='mySubmit'>submit</button>
+                    <p><button type="Go" id='mySubmit'>submit</button>
                     <button type="reset" id='mySubmit1'>reset</button>
     </fieldset>
 </form>
