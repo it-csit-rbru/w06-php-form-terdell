@@ -53,16 +53,16 @@
                     <option value="5">คอมพิวเตอร์ศึกษา</option>
         </select>
                     <p><label>เครื่องมือที่ใช้</label>
-                    <input  type="checkbox" for="prj_tool[]"><label> html </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> css </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> javaScript </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> Bootstrap </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> Material Design </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> Angular </label><br>
-                    <input  type="checkbox" for="prj_tool[]"><label> React </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> PHP </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> MySQL </label>
-                    <input  type="checkbox" for="prj_tool[]"><label> ChartJS </label><br><br>
+                    <input  type="checkbox" for="prj_tool[]" value="1"><label> html </label>
+                    <input  type="checkbox" for="prj_tool[]"value="2"><label> css </label>
+                    <input  type="checkbox" for="prj_tool[]"value="3"><label> javaScript </label>
+                    <input  type="checkbox" for="prj_tool[]"value="4"><label> Bootstrap </label>
+                    <input  type="checkbox" for="prj_tool[]"value="5"><label> Material Design </label>
+                    <input  type="checkbox" for="prj_tool[]"value="6"><label> Angular </label><br>
+                    <input  type="checkbox" for="prj_tool[]"value="7"><label> React </label>
+                    <input  type="checkbox" for="prj_tool[]"value="8"><label> PHP </label>
+                    <input  type="checkbox" for="prj_tool[]"value="9"><label> MySQL </label>
+                    <input  type="checkbox" for="prj_tool[]"value="10"><label> ChartJS </label><br><br>
  
         <label for="prj_teacher">อาจารย์ที่ปรึกษา</label>
                     <select name="prj_teacher">
